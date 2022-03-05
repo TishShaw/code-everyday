@@ -11,3 +11,15 @@ I am using the brute force approach to find a fast solution to the problem resul
 
 Link(s) to work: 
 https://leetcode.com/problems/two-sum/submissions/
+
+
+Day 2: March 4, 2022 
+Today's Progress: 
+Completed addTwoNumbers prompt on leetcode. 
+
+Thoughts: 
+
+Time complexity: O(n + m)
+
+
+Link(s) to work: https://leetcode.com/problems/add-two-numbers/submissions/
