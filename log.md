@@ -21,5 +21,17 @@ Thoughts:
 
 Time complexity: O(n + m)
 
-
 Link(s) to work: https://leetcode.com/problems/add-two-numbers/submissions/
+
+Day 3: March 5, 2022 
+Today's Progress: 
+Completed a Two Sum problem on 
+Leetcode using a optimal solution approach.
+
+
+Thoughts: I chose to use a hash map to optimal solution to reduce the cost of time and optimize space. The benefit of using a hash map 0(1) lookup time. Instead of having to loop through each index twice, we use a hashmap to store key-value pairs. With this, we can take the difference of the target and check if the difference is present in the hash object. If we have a match , we are done, else we add the number and it's index in the map for future use.
+
+Time complexity: 0(n)
+
+
+Link(s) to work: https://leetcode.com/problems/two-sum/submissions/

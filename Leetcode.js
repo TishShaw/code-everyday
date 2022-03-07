@@ -1,3 +1,4 @@
+// Brute Force
 function twoSum(nums, target) {
 	for (let i = 0; i < nums.length; i++) {
 		for (let j = i + 1; j < nums.length; j++) {
@@ -7,6 +8,25 @@ function twoSum(nums, target) {
 		}
 	}
 }
+
+// Optimal Soluion
+function twoSum(nums, target) {
+    const previousValues = {}
+    
+    for(let i = 0; i < nums.length; i++) {
+        let currentNumber = nums[i]
+        const neededValue = target - currentNumber
+        const index2 = previousValues[neededValue]
+        
+        if(index2 != null) {
+            return [index2, i]
+        } else {
+            previousValues[currentNumber] = i
+        }
+    }
+}; 
+
+
 
 var addTwoNumbers = function (l1, l2) {
 	let result = new ListNode(0);
