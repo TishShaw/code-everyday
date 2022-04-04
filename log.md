@@ -35,3 +35,16 @@ Time complexity: 0(n)
 
 
 Link(s) to work: https://leetcode.com/problems/two-sum/submissions/
+
+Day 4: April 3, 2022 
+Today's Progress: 
+Completed Remove Duplicates from Sorted Array problem on 
+Leetcode using a optimal solution approach.
+
+
+Thoughts: Utilized two pointer method to remove duplicated in nums array. 
+
+Time complexity: 0(n)
+
+
+Link(s) to work: https://leetcode.com/problems/remove-duplicates-from-sorted-array/

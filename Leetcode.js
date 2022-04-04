@@ -54,3 +54,17 @@ var addTwoNumbers = function (l1, l2) {
 	}
 	return result.next;
 };
+
+
+const removeDuplicates = (nums) => {
+	
+	let j = 1;
+	for (let i = 0; i < nums.length -1; i++) {
+		if (nums[i] !== nums[i + 1]) {
+			nums[j] = nums[i + 1]
+            j++
+		}
+	}
+
+	return j;
+}
